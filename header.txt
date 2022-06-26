@@ -1,1 +1,5 @@
 Some text here
+Chanhes for <master>
+Changes from <first>
+
+Text from master: New Changes
