@@ -1,0 +1,121 @@
+/* https://css.gg/home */
+@import './icons.css';
+/* https://necolas.github.io/normalize.css/ */
+@import './normalize.css';
+/* https://meyerweb.com/eric/tools/css/reset/ */
+@import './reset.css';
+@import './font.css';
+
+.main {
+    display: flex;
+}
+
+.left {
+    flex: .35;
+    background-color: #39383a;
+}
+
+.right {
+    flex: .65;
+    background-color: #fff;
+}
+
+.avatar {
+    background-image: url('../img/sviter.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    height: 600px;
+}
+
+.content {
+    padding: 80px;
+}
+
+.block {
+    margin-top: 55px;
+}
+
+.flex {
+    display: flex;
+}
+
+.profile__title {
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    font-family: Open sans;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.divider {
+    border: 0.5px #525252 dashed;
+}
+
+.text {
+    color: #ababab;
+    font-size: 33px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+}
+
+.icon {
+    margin-top: 10px;
+    transform: scale(1.5);
+    color: #fff;
+}
+
+.info__container {
+    margin-left: 35px;
+}
+
+.title__secondary {
+    margin-top: 0;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.subtitle {
+    color: #ababab;
+    font-size: 33px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+}
+
+.gg-home {
+    margin-top: 20px;
+}
+
+.lang_block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 260px;
+    background-color: #39383a;
+    border-radius: 140px;
+    border: 17px #5c5c5c solid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.lang_name {
+    text-transform: uppercase;
+    font-size: 29px;
+    line-height: 54px;
+    color: #ababab;
+}
+
+.lang_percent {
+    color: white;
+    font-size: 37px;
+    line-height: 54px;
+}
