@@ -10,7 +10,6 @@
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -148,6 +147,10 @@
     border-width: 2px;
     margin: 60px 70px;
 }
+.right_pad {
+    padding-left: 140px;
+    padding-right: 90px;
+}
 
 .logo_container {
     display: flex;
@@ -195,6 +198,7 @@
 }
 
 .rs {
+    font-family: 'roboto';
     display: flex;
     flex-direction: column;
     width: 235px;
@@ -281,7 +285,7 @@
 .center_line {
     height: 2px;
     background-color: #525252;
-    margin: 90px 140px 0 140px;
+    margin: 90px 0 0 0;
 
 }
 
@@ -289,7 +293,6 @@
     font-family: 'open sans';
     font-weight: 600;
     margin-top: 100px;
-    margin-left: 140px;
     font-size: 42px;
     margin-bottom: -35px;
 }
@@ -305,7 +308,6 @@
     border-radius: 140px;
     background-color: black;
     ;
-    margin-left: 140px;
     margin-top: 100px;
     margin-right: 80px;
 }
@@ -328,6 +330,7 @@
 }
 
 .respo {
+    margin-right: 15%;
     font-family: 'roboto';
     font-weight: 400;
     margin-top: 50px;
@@ -337,14 +340,12 @@
 
 .divider_right {
     margin-top: 85px;
-    margin-left: 140px;
-    margin-right: 140px;
     border: 0.5px #525252 dashed;
 
 }
 
 .skillbox {
-    margin: 125px 140px 300px 140px;
+    margin: 125px 0 300px 0;
     display: flex;
     flex-direction: column;
 
