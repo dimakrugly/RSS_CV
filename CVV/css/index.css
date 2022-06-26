@@ -8,17 +8,16 @@
 
 .main {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .left {
-    flex: .35;
+    flex: .25;
     background-color: #39383a;
 }
 
-.right {
-    flex: .65;
-    background-color: #fff;
-}
+
 
 .avatar {
     background-image: url('../img/sviter.jpg');
@@ -119,3 +118,149 @@
     font-size: 37px;
     line-height: 54px;
 }
+
+/*Right*/
+.right {
+    flex: .75;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: #525252;
+    border-width: 2px;
+    margin: 60px 70px;
+}
+
+.logo_container {
+    display: flex;
+    height: 333px;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.logo__left {
+
+    width: 162px;
+    height: 100%;
+}
+
+.up {
+    margin-top: 160px;
+    border: 2px black solid;
+    background-color: black;
+    margin-left: 60px;
+}
+
+.line {
+    margin-top: 50px;
+    margin-right: 20px;
+    border: 2px black solid;
+    background-color: black;
+}
+
+.down {
+    margin-top: 45px;
+    margin-left: 60px;
+    border: 2px black solid;
+    background-color: black;
+
+}
+
+.logo__middle {
+    width: 325px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rs {
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    height: 235px;
+    border-radius: 140px;
+    border: 5px black solid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+    margin-right: 30px;
+    font-size: 46px;
+
+}
+
+.logo__right {
+    width: 162px;
+}
+
+.up_rev {
+    margin-top: 160px;
+    border: 2px black solid;
+    background-color: black;
+    margin-right: 60px;
+}
+
+.line_rev {
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 2px black solid;
+    background-color: black;
+}
+
+.down_rev {
+    margin-top: 45px;
+    margin-right: 60px;
+    border: 2px black solid;
+    background-color: black;
+
+}
+
+.name {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nick {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.profession {
+    margin-top: 45px;
+    color: #808080;
+    font-size: 23px;
+}
+
+.home {
+    margin-top: 88px;
+    font-size: 33px;
+}
+
+.contacts {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: #808080;
+
+}
+
+.center_line {
+    height: 2px;
+    background-color: #525252;
+    margin: 90px 140px 0 140px;
+
+}
+
+.exp {
+    margin-top: 100px;
+    margin-left: 140px;
+    font-size: 42px;
+    margin-bottom: -35px;
+    }
